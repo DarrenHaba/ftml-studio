@@ -1,0 +1,23 @@
+#Ignore virtual environment
+.venv/
+
+# Ignore the coverage report file
+.coverage/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Distribution files
+/dist/
+/build/
+
+/*.egg-info
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Other temporary files
+*.log
