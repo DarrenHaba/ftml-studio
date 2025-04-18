@@ -27,8 +27,7 @@ ftml-studio
 ## Features
 
 ### FTML Editor
-
-![FTML Editor](https://github.com/DarrenHaba/ftml-studio/blob/master/images/ftml-studio-editor.png)
+![FTML Editor](https://github.com/DarrenHaba/ftml-studio/blob/main/images/ftml-studio-editor.png?raw=true)
 
 - **Syntax Highlighting**: Makes your FTML code more readable and easier to understand
 - **Live Error Detection**: Identifies syntax errors as you type with inline highlighting
@@ -37,7 +36,7 @@ ftml-studio
 
 ### Format Converter
 
-![Format Converter](https://github.com/DarrenHaba/ftml-studio/blob/master/images/ftml-studio-converter.png)
+![Format Converter](https://github.com/DarrenHaba/ftml-studio/blob/main/images/ftml-studio-converter.png?raw=true)
 
 Convert between multiple markup formats:
 - FTML
