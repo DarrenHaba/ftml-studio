@@ -8,8 +8,8 @@ from PySide6.QtWidgets import (QWidget, QVBoxLayout, QHBoxLayout,
 from PySide6.QtCore import Qt, QSize, QPropertyAnimation, QEasingCurve, Signal
 from PySide6.QtGui import QIcon
 
-from src.ftml_studio.ui.themes import theme_manager
-from src.ftml_studio.logger import setup_logger, LOG_LEVELS
+from ftml_studio.ui.themes import theme_manager
+from ftml_studio.logger import setup_logger, LOG_LEVELS
 
 # Configure logging
 logger = setup_logger("ftml_studio.sidebar")

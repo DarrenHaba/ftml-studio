@@ -23,8 +23,8 @@ def main():
     # Import here to avoid circular imports
     try:
         from PySide6.QtWidgets import QApplication
-        from src.ftml_studio.ui.themes import theme_manager
-        from src.ftml_studio.ui.main_window import MainWindow
+        from ftml_studio.ui.themes import theme_manager
+        from ftml_studio.ui.main_window import MainWindow
     except ImportError:
         logger.error("PySide6 is required but not installed. Please install it with: pip install PySide6")
         sys.exit(1)

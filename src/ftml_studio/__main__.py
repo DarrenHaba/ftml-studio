@@ -7,8 +7,8 @@ For quick debugging, uncomment the desired log level below:
 """
 
 import os
-from src.ftml_studio.logger import setup_logger
-from src.ftml_studio.cli import main
+from ftml_studio.logger import setup_logger
+from ftml_studio.cli import main
 
 # Quick debug level setting - uncomment ONE of these lines:
 # os.environ['FTML_STUDIO_LOG_LEVEL'] = 'DEBUG'  # Show all debug messages

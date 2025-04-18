@@ -10,10 +10,10 @@ from PySide6.QtGui import QFont
 from PySide6.QtCore import Qt, QSettings
 from ftml.exceptions import FTMLParseError
 
-from src.ftml_studio.logger import setup_logger, LOG_LEVELS
-from src.ftml_studio.converters.ftml_conversion_validator import FTMLConversionValidator
-from src.ftml_studio.converters.json_converter import JSONConverter
-from src.ftml_studio.ui.themes import theme_manager
+from ftml_studio.logger import setup_logger, LOG_LEVELS
+from ftml_studio.converters.ftml_conversion_validator import FTMLConversionValidator
+from ftml_studio.converters.json_converter import JSONConverter
+from ftml_studio.ui.themes import theme_manager
 
 # Configure logging
 logger = setup_logger("ftml_studio.converter")
@@ -63,77 +63,77 @@ def get_converter(source_fmt, target_fmt):
         return JSONConverter(reverse=False)
     elif source_fmt.lower() == "yaml" and target_fmt.lower() == "ftml":
         logger.debug("Creating YAML to FTML converter")
-        from src.ftml_studio.converters.yaml_converter import YAMLConverter
+        from ftml_studio.converters.yaml_converter import YAMLConverter
         return YAMLConverter(reverse=True)
     elif source_fmt.lower() == "ftml" and target_fmt.lower() == "yaml":
         logger.debug("Creating FTML to YAML converter")
-        from src.ftml_studio.converters.yaml_converter import YAMLConverter
+        from ftml_studio.converters.yaml_converter import YAMLConverter
         return YAMLConverter(reverse=False)
     elif source_fmt.lower() == "toml" and target_fmt.lower() == "ftml":
         logger.debug("Creating TOML to FTML converter")
-        from src.ftml_studio.converters.toml_converter import TOMLConverter
+        from ftml_studio.converters.toml_converter import TOMLConverter
         return TOMLConverter(reverse=True)
     elif source_fmt.lower() == "ftml" and target_fmt.lower() == "toml":
         logger.debug("Creating FTML to TOML converter")
-        from src.ftml_studio.converters.toml_converter import TOMLConverter
+        from ftml_studio.converters.toml_converter import TOMLConverter
         return TOMLConverter(reverse=False)
     elif source_fmt.lower() == "xml" and target_fmt.lower() == "ftml":
         logger.debug("Creating XML to FTML converter")
-        from src.ftml_studio.converters.xml_converter import XMLConverter
+        from ftml_studio.converters.xml_converter import XMLConverter
         return XMLConverter(reverse=True)
     elif source_fmt.lower() == "ftml" and target_fmt.lower() == "xml":
         logger.debug("Creating FTML to XML converter")
-        from src.ftml_studio.converters.xml_converter import XMLConverter
+        from ftml_studio.converters.xml_converter import XMLConverter
         return XMLConverter(reverse=False)
 
     # Direct format conversions
     elif source_fmt.lower() == "json" and target_fmt.lower() == "yaml":
         logger.debug("Creating JSON to YAML converter")
-        from src.ftml_studio.converters.yaml_converter import JSONToYAMLConverter
+        from ftml_studio.converters.yaml_converter import JSONToYAMLConverter
         return JSONToYAMLConverter()
     elif source_fmt.lower() == "yaml" and target_fmt.lower() == "json":
         logger.debug("Creating YAML to JSON converter")
-        from src.ftml_studio.converters.yaml_converter import YAMLToJSONConverter
+        from ftml_studio.converters.yaml_converter import YAMLToJSONConverter
         return YAMLToJSONConverter()
     elif source_fmt.lower() == "json" and target_fmt.lower() == "toml":
         logger.debug("Creating JSON to TOML converter")
-        from src.ftml_studio.converters.toml_converter import JSONToTOMLConverter
+        from ftml_studio.converters.toml_converter import JSONToTOMLConverter
         return JSONToTOMLConverter()
     elif source_fmt.lower() == "toml" and target_fmt.lower() == "json":
         logger.debug("Creating TOML to JSON converter")
-        from src.ftml_studio.converters.toml_converter import TOMLToJSONConverter
+        from ftml_studio.converters.toml_converter import TOMLToJSONConverter
         return TOMLToJSONConverter()
     elif source_fmt.lower() == "json" and target_fmt.lower() == "xml":
         logger.debug("Creating JSON to XML converter")
-        from src.ftml_studio.converters.xml_converter import JSONToXMLConverter
+        from ftml_studio.converters.xml_converter import JSONToXMLConverter
         return JSONToXMLConverter()
     elif source_fmt.lower() == "xml" and target_fmt.lower() == "json":
         logger.debug("Creating XML to JSON converter")
-        from src.ftml_studio.converters.xml_converter import XMLToJSONConverter
+        from ftml_studio.converters.xml_converter import XMLToJSONConverter
         return XMLToJSONConverter()
     elif source_fmt.lower() == "yaml" and target_fmt.lower() == "toml":
         logger.debug("Creating YAML to TOML converter")
-        from src.ftml_studio.converters.yaml_converter import YAMLToTOMLConverter
+        from ftml_studio.converters.yaml_converter import YAMLToTOMLConverter
         return YAMLToTOMLConverter()
     elif source_fmt.lower() == "yaml" and target_fmt.lower() == "xml":
         logger.debug("Creating YAML to XML converter")
-        from src.ftml_studio.converters.yaml_converter import YAMLToXMLConverter
+        from ftml_studio.converters.yaml_converter import YAMLToXMLConverter
         return YAMLToXMLConverter()
     elif source_fmt.lower() == "toml" and target_fmt.lower() == "yaml":
         logger.debug("Creating TOML to YAML converter")
-        from src.ftml_studio.converters.toml_converter import TOMLToYAMLConverter
+        from ftml_studio.converters.toml_converter import TOMLToYAMLConverter
         return TOMLToYAMLConverter()
     elif source_fmt.lower() == "toml" and target_fmt.lower() == "xml":
         logger.debug("Creating TOML to XML converter")
-        from src.ftml_studio.converters.toml_converter import TOMLToXMLConverter
+        from ftml_studio.converters.toml_converter import TOMLToXMLConverter
         return TOMLToXMLConverter()
     elif source_fmt.lower() == "xml" and target_fmt.lower() == "yaml":
         logger.debug("Creating XML to YAML converter")
-        from src.ftml_studio.converters.xml_converter import XMLToYAMLConverter
+        from ftml_studio.converters.xml_converter import XMLToYAMLConverter
         return XMLToYAMLConverter()
     elif source_fmt.lower() == "xml" and target_fmt.lower() == "toml":
         logger.debug("Creating XML to TOML converter")
-        from src.ftml_studio.converters.xml_converter import XMLToTOMLConverter
+        from ftml_studio.converters.xml_converter import XMLToTOMLConverter
         return XMLToTOMLConverter()
     else:
         logger.warning(f"Unsupported conversion: {source_fmt} to {target_fmt}")
@@ -356,7 +356,7 @@ class ConverterWidget(QWidget):
         self.error_highlighting_enabled = app_settings.value("editor/showErrorIndicators", True, type=bool)
 
         # Import highlighters on-demand
-        from src.ftml_studio.syntax import (
+        from ftml_studio.syntax import (
             JSONHighlighter, YAMLHighlighter,
             TOMLHighlighter, XMLHighlighter, FTMLASTHighlighter
         )

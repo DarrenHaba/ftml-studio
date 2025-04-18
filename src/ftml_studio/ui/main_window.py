@@ -5,13 +5,13 @@ from PySide6.QtWidgets import (QVBoxLayout, QHBoxLayout,
                                QWidget, QStackedWidget, QApplication)
 from PySide6.QtCore import QSettings
 
-from src.ftml_studio.ui.elements.ftml_editor import FTMLEditorWidget
-from src.ftml_studio.ui.elements.converter import ConverterWidget
-from src.ftml_studio.ui.elements.settings import SettingsPanel  # Import new SettingsPanel
-from src.ftml_studio.ui.base_window import BaseWindow
-from src.ftml_studio.ui.elements.sidebar import Sidebar  # Import the standalone sidebar
-from src.ftml_studio.ui.themes import theme_manager
-from src.ftml_studio.logger import setup_logger
+from ftml_studio.ui.elements.ftml_editor import FTMLEditorWidget
+from ftml_studio.ui.elements.converter import ConverterWidget
+from ftml_studio.ui.elements.settings import SettingsPanel  # Import new SettingsPanel
+from ftml_studio.ui.base_window import BaseWindow
+from ftml_studio.ui.elements.sidebar import Sidebar  # Import the standalone sidebar
+from ftml_studio.ui.themes import theme_manager
+from ftml_studio.logger import setup_logger
 
 # Configure logging
 logger = setup_logger("ftml_studio.main_window")

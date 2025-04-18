@@ -13,9 +13,9 @@ from PySide6.QtGui import QFont, QTextCursor, QColor, QIcon, QAction
 import ftml
 from ftml.exceptions import FTMLParseError
 
-from src.ftml_studio.ui.themes import theme_manager
-from src.ftml_studio.syntax import FTMLASTHighlighter
-from src.ftml_studio.logger import setup_logger, LOG_LEVELS
+from ftml_studio.ui.themes import theme_manager
+from ftml_studio.syntax import FTMLASTHighlighter
+from ftml_studio.logger import setup_logger, LOG_LEVELS
 
 # Configure logging
 logger = setup_logger("ftml_studio.editor_window")
