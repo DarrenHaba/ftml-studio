@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "ftml-studio"
 version = "0.1.0a1"
-description = ""
+description = "A modern GUI editor and conversion tool for FTML markup language with syntax highlighting, error detection, and format conversion between FTML, JSON, YAML, TOML and XML."
 authors = ["DarrenHaba <darrenhaba@live.com>"]
 readme = "README.md"
 packages = [{ include = "ftml_studio", from = "src" }]
