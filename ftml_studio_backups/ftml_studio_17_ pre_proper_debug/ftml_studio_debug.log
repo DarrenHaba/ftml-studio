@@ -1,0 +1,692 @@
+2025-04-16 10:19:16,565 - root - INFO - [__main__.py:55] - Starting FTML Studio application
+2025-04-16 10:19:16,592 - root - DEBUG - [__main__.py:62] - Theme manager imported successfully
+2025-04-16 10:19:16,651 - theme_manager - DEBUG - [theme_manager.py:230] - Applying theme: auto (resolved to dark)
+2025-04-16 10:19:16,651 - root - DEBUG - [__main__.py:66] - Theme applied successfully
+2025-04-16 10:19:16,678 - json_converter - DEBUG - [json_converter.py:16] - Created JSONConverter with reverse=False
+2025-04-16 10:19:16,678 - json_converter - DEBUG - [json_converter.py:16] - Created JSONConverter with reverse=True
+2025-04-16 10:19:16,679 - root - DEBUG - [__main__.py:70] - MainWindow imported successfully
+2025-04-16 10:19:16,679 - main_window - DEBUG - [main_window.py:284] - Setting up MainWindow UI
+2025-04-16 10:19:16,680 - main_window - DEBUG - [main_window.py:79] - Created SidebarButton: menu - 
+2025-04-16 10:19:16,680 - main_window - DEBUG - [main_window.py:79] - Created SidebarButton: editor - FTML Editor
+2025-04-16 10:19:16,680 - main_window - DEBUG - [main_window.py:79] - Created SidebarButton: converter - Format Converter
+2025-04-16 10:19:16,681 - main_window - DEBUG - [main_window.py:79] - Created SidebarButton: settings - Settings
+2025-04-16 10:19:16,681 - main_window - DEBUG - [main_window.py:179] - Sidebar UI components created
+2025-04-16 10:19:16,681 - main_window - DEBUG - [main_window.py:132] - Sidebar initialized
+2025-04-16 10:19:16,681 - editor_window - DEBUG - [editor_window.py:30] - Initializing FTML AST Demo
+2025-04-16 10:19:16,681 - editor_window - DEBUG - [editor_window.py:40] - Setting up UI components
+2025-04-16 10:19:16,685 - editor_window - DEBUG - [editor_window.py:58] - Created EnhancedTextEdit
+2025-04-16 10:19:16,686 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:24] - Initializing FTMLASTHighlighter
+2025-04-16 10:19:16,686 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:30] - Error signaler created
+2025-04-16 10:19:16,686 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:35] - Configuration: error_highlighting=True, parse_delay=500ms
+2025-04-16 10:19:16,686 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:67] - Initializing AST formats
+2025-04-16 10:19:16,686 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:81] - Base formats created
+2025-04-16 10:19:16,686 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:88] - Using theme error color: #ff5252
+2025-04-16 10:19:16,687 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:105] - Error format initialized with wave underline
+2025-04-16 10:19:16,687 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:39] - AST formats initialized
+2025-04-16 10:19:16,687 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:45] - Parse timer created and connected
+2025-04-16 10:19:16,687 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:59] - Connecting contentsChange signal
+2025-04-16 10:19:16,687 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:61] - Starting initial parse timer with delay 500ms
+2025-04-16 10:19:16,687 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:63] - FTMLASTHighlighter initialization complete
+2025-04-16 10:19:16,687 - editor_window - DEBUG - [editor_window.py:97] - Applied FTMLASTHighlighter with theme support and error highlighting
+2025-04-16 10:19:16,688 - editor_window - DEBUG - [editor_window.py:152] - Connected textChanged signal to update handler
+2025-04-16 10:19:16,688 - editor_window - DEBUG - [editor_window.py:37] - UI setup complete
+2025-04-16 10:19:16,688 - ftml_converter - DEBUG - [converter_window.py:155] - Initializing ConverterWidget
+2025-04-16 10:19:16,688 - ftml_converter - DEBUG - [converter_window.py:167] - Setting up ConverterWidget UI
+2025-04-16 10:19:16,690 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:24] - Initializing FTMLASTHighlighter
+2025-04-16 10:19:16,691 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:30] - Error signaler created
+2025-04-16 10:19:16,691 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:35] - Configuration: error_highlighting=True, parse_delay=500ms
+2025-04-16 10:19:16,691 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:67] - Initializing AST formats
+2025-04-16 10:19:16,691 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:81] - Base formats created
+2025-04-16 10:19:16,691 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:88] - Using theme error color: #ff5252
+2025-04-16 10:19:16,691 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:105] - Error format initialized with wave underline
+2025-04-16 10:19:16,691 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:39] - AST formats initialized
+2025-04-16 10:19:16,691 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:45] - Parse timer created and connected
+2025-04-16 10:19:16,691 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:59] - Connecting contentsChange signal
+2025-04-16 10:19:16,691 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:61] - Starting initial parse timer with delay 500ms
+2025-04-16 10:19:16,691 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:63] - FTMLASTHighlighter initialization complete
+2025-04-16 10:19:16,691 - ftml_converter - DEBUG - [converter_window.py:279] - UI setup complete
+2025-04-16 10:19:16,692 - main_window - DEBUG - [main_window.py:330] - MainWindow UI setup complete
+2025-04-16 10:19:16,692 - main_window - DEBUG - [main_window.py:268] - Initializing MainWindow
+2025-04-16 10:19:16,736 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 1: '//! This is a docume...'
+2025-04-16 10:19:16,736 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 1
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:343] - Block 1: Found 0 regular comments, 1 inner doc comments, 0 outer doc comments
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 1, total errors: 0
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 2: '// This is a regular...'
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 2
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:343] - Block 2: Found 1 regular comments, 0 inner doc comments, 0 outer doc comments
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 2, total errors: 0
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 3: 'name = "My FTML Docu...'
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 3
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 3, total errors: 0
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 4: 'version = 1.0'
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 4
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 4, total errors: 0
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 5: ''
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 5
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 5, total errors: 0
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 6: '// An object example'
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 6
+2025-04-16 10:19:16,737 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:343] - Block 6: Found 1 regular comments, 0 inner doc comments, 0 outer doc comments
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 6, total errors: 0
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 7: 'config = {'
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 7
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 7, total errors: 0
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 8: '    server = "localh...'
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 8
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 8, total errors: 0
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 9: '    port = 8080,'
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 9
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 9, total errors: 0
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 10: '    debug = true,'
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 10
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 10, total errors: 0
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 11: '    options = {'
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 11
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 11, total errors: 0
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,738 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 12: '        timeout = 30...'
+2025-04-16 10:19:16,739 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 12
+2025-04-16 10:19:16,739 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 12, total errors: 0
+2025-04-16 10:19:16,739 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,739 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 13: '        retry = fals...'
+2025-04-16 10:19:16,739 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 13
+2025-04-16 10:19:16,739 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 13, total errors: 0
+2025-04-16 10:19:16,739 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,739 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 14: '    }'
+2025-04-16 10:19:16,739 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 14
+2025-04-16 10:19:16,739 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 14, total errors: 0
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 15: '}'
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 15
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 15, total errors: 0
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 16: ''
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 16
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 16, total errors: 0
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 17: '// A list example'
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 17
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:343] - Block 17: Found 1 regular comments, 0 inner doc comments, 0 outer doc comments
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 17, total errors: 0
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 18: 'tags = ['
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 18
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 18, total errors: 0
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 19: '    "syntax",'
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 19
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 19, total errors: 0
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 20: '    "highlighting",'
+2025-04-16 10:19:16,740 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 20
+2025-04-16 10:19:16,741 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 20, total errors: 0
+2025-04-16 10:19:16,741 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,741 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 21: '    "ast",'
+2025-04-16 10:19:16,741 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 21
+2025-04-16 10:19:16,741 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 21, total errors: 0
+2025-04-16 10:19:16,741 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,741 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 22: '    42,'
+2025-04-16 10:19:16,741 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 22
+2025-04-16 10:19:16,741 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 22, total errors: 0
+2025-04-16 10:19:16,741 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,741 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 23: '    null,'
+2025-04-16 10:19:16,741 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 23
+2025-04-16 10:19:16,741 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 23, total errors: 0
+2025-04-16 10:19:16,741 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,741 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 24: '    true'
+2025-04-16 10:19:16,741 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 24
+2025-04-16 10:19:16,741 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 24, total errors: 0
+2025-04-16 10:19:16,741 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,742 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 25: ']'
+2025-04-16 10:19:16,742 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 25
+2025-04-16 10:19:16,742 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 25, total errors: 0
+2025-04-16 10:19:16,742 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,742 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 26: ''
+2025-04-16 10:19:16,742 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 26
+2025-04-16 10:19:16,742 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 26, total errors: 0
+2025-04-16 10:19:16,742 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:16,742 - main_window - DEBUG - [main_window.py:398] - Switching to mode 0
+2025-04-16 10:19:16,742 - main_window - DEBUG - [main_window.py:407] - Activating FTML Editor mode
+2025-04-16 10:19:16,742 - main_window - DEBUG - [main_window.py:412] - Content widget switched to index 0
+2025-04-16 10:19:16,742 - main_window - DEBUG - [main_window.py:419] - Focus set to editor widget
+2025-04-16 10:19:16,743 - root - INFO - [__main__.py:74] - MainWindow created
+2025-04-16 10:19:16,763 - root - INFO - [__main__.py:83] - MainWindow shown
+2025-04-16 10:19:17,183 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:122] - === STARTING DOCUMENT PARSE ===
+2025-04-16 10:19:17,184 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:124] - Document length: 0 characters
+2025-04-16 10:19:17,184 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:132] - Reset state: old_errors=0, using_partial_highlighting=False
+2025-04-16 10:19:17,184 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:135] - Empty document, skipping parse
+2025-04-16 10:19:17,184 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 1: ''
+2025-04-16 10:19:17,184 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 1
+2025-04-16 10:19:17,184 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 1, total errors: 0
+2025-04-16 10:19:17,184 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,184 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:122] - === STARTING DOCUMENT PARSE ===
+2025-04-16 10:19:17,184 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:124] - Document length: 369 characters
+2025-04-16 10:19:17,184 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:132] - Reset state: old_errors=0, using_partial_highlighting=False
+2025-04-16 10:19:17,184 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:148] - Attempting to parse FTML content
+2025-04-16 10:19:17,186 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:150] - FTML load successful
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:156] - Successfully parsed FTML document with AST
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:259] - No change in errors, not emitting signal
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:262] - Calling rehighlight
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 1: '//! This is a docume...'
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 1
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:343] - Block 1: Found 0 regular comments, 1 inner doc comments, 0 outer doc comments
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 1
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 1
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 1
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 0 AST elements on line 1
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 1, total errors: 0
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 2: '// This is a regular...'
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 2
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:343] - Block 2: Found 1 regular comments, 0 inner doc comments, 0 outer doc comments
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 2
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 2
+2025-04-16 10:19:17,187 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 2
+2025-04-16 10:19:17,188 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,188 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:495] - Found leading comment on line 2
+2025-04-16 10:19:17,188 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:782] - Identified regular comment: This is a regular comment
+2025-04-16 10:19:17,188 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:784] - Using format key: comment for comment: 'This is a regular co...'
+2025-04-16 10:19:17,188 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:789] - Found exact comment text at position 3
+2025-04-16 10:19:17,188 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,188 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,188 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,188 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,188 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,188 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,188 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 1 AST elements on line 2
+2025-04-16 10:19:17,188 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 2, total errors: 0
+2025-04-16 10:19:17,188 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,188 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 3: 'name = "My FTML Docu...'
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 3
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 3
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 3
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 3
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:477] - Found key-value node for key 'name' on line 3
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:517] - Highlighting key 'name' at position 0
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:525] - Highlighting equals sign at position 5
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:532] - Processing scalar value of type str
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:688] - Processing string value: 'My FTML Document'
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:697] - Applied string formatting to 1 matches
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 1 AST elements on line 3
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 3, total errors: 0
+2025-04-16 10:19:17,189 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 4: 'version = 1.0'
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 4
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 4
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 4
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 4
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:477] - Found key-value node for key 'version' on line 4
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:517] - Highlighting key 'version' at position 0
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:525] - Highlighting equals sign at position 8
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:532] - Processing scalar value of type float
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:726] - Processing number value: 1.0
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:729] - Highlighting number at position 10
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 1 AST elements on line 4
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 4, total errors: 0
+2025-04-16 10:19:17,190 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 5: ''
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 5
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 5
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 5
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 5
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 0 AST elements on line 5
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 5, total errors: 0
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 6: '// An object example'
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 6
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:343] - Block 6: Found 1 regular comments, 0 inner doc comments, 0 outer doc comments
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 6
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 6
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 6
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:495] - Found leading comment on line 6
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:782] - Identified regular comment: An object example
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:784] - Using format key: comment for comment: 'An object example'
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:789] - Found exact comment text at position 3
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 1 AST elements on line 6
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 6, total errors: 0
+2025-04-16 10:19:17,191 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 7: 'config = {'
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 7
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 7
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 7
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 7
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:477] - Found key-value node for key 'config' on line 7
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:517] - Highlighting key 'config' at position 0
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:525] - Highlighting equals sign at position 7
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:547] - Highlighting opening brace at position 9
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 2 AST elements on line 7
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 7, total errors: 0
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 8: '    server = "localh...'
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 8
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 8
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 8
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 8
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:570] - Found item with key 'server' on line 8
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:574] - Highlighting key 'server' at position 4
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:583] - Highlighting equals sign at position 11
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:591] - Processing value of type ScalarNode
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:688] - Processing string value: 'localhost'
+2025-04-16 10:19:17,192 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:697] - Applied string formatting to 1 matches
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:650] - Highlighting comma at position 24
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:656] - Highlighted 1 commas
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 2 AST elements on line 8
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 8, total errors: 0
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 9: '    port = 8080,'
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 9
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 9
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 9
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 9
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:570] - Found item with key 'port' on line 9
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:574] - Highlighting key 'port' at position 4
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:583] - Highlighting equals sign at position 9
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:591] - Processing value of type ScalarNode
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:726] - Processing number value: 8080
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:729] - Highlighting number at position 11
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:650] - Highlighting comma at position 15
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:656] - Highlighted 1 commas
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 2 AST elements on line 9
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 9, total errors: 0
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 10: '    debug = true,'
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 10
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 10
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 10
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 10
+2025-04-16 10:19:17,193 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:570] - Found item with key 'debug' on line 10
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:574] - Highlighting key 'debug' at position 4
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:583] - Highlighting equals sign at position 10
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:591] - Processing value of type ScalarNode
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:703] - Processing boolean value: true
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:706] - Highlighting boolean at position 12
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:650] - Highlighting comma at position 16
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:656] - Highlighted 1 commas
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 2 AST elements on line 10
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 10, total errors: 0
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 11: '    options = {'
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 11
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 11
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 11
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 11
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:570] - Found item with key 'options' on line 11
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:574] - Highlighting key 'options' at position 4
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:583] - Highlighting equals sign at position 12
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:591] - Processing value of type ObjectNode
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:682] - Not a ScalarNode, got ObjectNode
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:547] - Highlighting opening brace at position 14
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 1 AST elements on line 11
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 11, total errors: 0
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 12: '        timeout = 30...'
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 12
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 12
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 12
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 12
+2025-04-16 10:19:17,194 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:570] - Found item with key 'timeout' on line 12
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:574] - Highlighting key 'timeout' at position 8
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:583] - Highlighting equals sign at position 16
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:591] - Processing value of type ScalarNode
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:726] - Processing number value: 30
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:729] - Highlighting number at position 18
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:650] - Highlighting comma at position 20
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:656] - Highlighted 1 commas
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 2 AST elements on line 12
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 12, total errors: 0
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 13: '        retry = fals...'
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 13
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 13
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 13
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 13
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:570] - Found item with key 'retry' on line 13
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:574] - Highlighting key 'retry' at position 8
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:583] - Highlighting equals sign at position 14
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:591] - Processing value of type ScalarNode
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:703] - Processing boolean value: false
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:706] - Highlighting boolean at position 16
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 1 AST elements on line 13
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 13, total errors: 0
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 14: '    }'
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 14
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 14
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 14
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 14
+2025-04-16 10:19:17,195 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:558] - Highlighting closing brace at position 4
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:558] - Highlighting closing brace at position 4
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 1 AST elements on line 14
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 14, total errors: 0
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 15: '}'
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 15
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 15
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 15
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 15
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:558] - Highlighting closing brace at position 0
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:558] - Highlighting closing brace at position 0
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 1 AST elements on line 15
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 15, total errors: 0
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 16: ''
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 16
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 16
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 16
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 16
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 0 AST elements on line 16
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 16, total errors: 0
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 17: '// A list example'
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 17
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:343] - Block 17: Found 1 regular comments, 0 inner doc comments, 0 outer doc comments
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 17
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 17
+2025-04-16 10:19:17,196 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 17
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:495] - Found leading comment on line 17
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:782] - Identified regular comment: A list example
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:784] - Using format key: comment for comment: 'A list example'
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:789] - Found exact comment text at position 3
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 1 AST elements on line 17
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 17, total errors: 0
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 18: 'tags = ['
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 18
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 18
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 18
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 18
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:477] - Found key-value node for key 'tags' on line 18
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:517] - Highlighting key 'tags' at position 0
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:525] - Highlighting equals sign at position 5
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:631] - Highlighting opening bracket at position 7
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 2 AST elements on line 18
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 18, total errors: 0
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 19: '    "syntax",'
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 19
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 19
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 19
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 19
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:650] - Highlighting comma at position 12
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:656] - Highlighted 1 commas
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:665] - Found list element on line 19
+2025-04-16 10:19:17,197 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:688] - Processing string value: 'syntax'
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:697] - Applied string formatting to 1 matches
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 1 AST elements on line 19
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 19, total errors: 0
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 20: '    "highlighting",'
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 20
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 20
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 20
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 20
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:650] - Highlighting comma at position 18
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:656] - Highlighted 1 commas
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:665] - Found list element on line 20
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:688] - Processing string value: 'highlighting'
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:697] - Applied string formatting to 1 matches
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 1 AST elements on line 20
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 20, total errors: 0
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 21: '    "ast",'
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 21
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 21
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 21
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 21
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:650] - Highlighting comma at position 9
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:656] - Highlighted 1 commas
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:665] - Found list element on line 21
+2025-04-16 10:19:17,198 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:688] - Processing string value: 'ast'
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:697] - Applied string formatting to 1 matches
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 1 AST elements on line 21
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 21, total errors: 0
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 22: '    42,'
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 22
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 22
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 22
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 22
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:650] - Highlighting comma at position 6
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:656] - Highlighted 1 commas
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:665] - Found list element on line 22
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:726] - Processing number value: 42
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:729] - Highlighting number at position 4
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 1 AST elements on line 22
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 22, total errors: 0
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 23: '    null,'
+2025-04-16 10:19:17,199 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 23
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 23
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 23
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 23
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:650] - Highlighting comma at position 8
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:656] - Highlighted 1 commas
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:665] - Found list element on line 23
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:714] - Processing null value
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:717] - Highlighting null at position 4
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 1 AST elements on line 23
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 23, total errors: 0
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 24: '    true'
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 24
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 24
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 24
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 24
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:665] - Found list element on line 24
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:703] - Processing boolean value: true
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:706] - Highlighting boolean at position 4
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 1 AST elements on line 24
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 24, total errors: 0
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 25: ']'
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 25
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 25
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 25
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 25
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,200 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:640] - Highlighting closing bracket at position 0
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 1 AST elements on line 25
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 25, total errors: 0
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:281] - Highlighting block 26: ''
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:288] - Highlighting comments for block 26
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:294] - Using AST-based highlighting for block 26
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:348] - Applying AST highlighting to block 26
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:468] - Processing AST elements on line 26
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:473] - Node has 4 items
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 4 items
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:562] - Closing brace not found in text
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:566] - Object has 2 items
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:644] - Closing bracket not found in text
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:660] - List has 6 elements
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:504] - Found 0 AST elements on line 26
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:306] - Checking for errors on block 26, total errors: 0
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:818] - No errors to highlight
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:264] - === DOCUMENT PARSE COMPLETE ===
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:273] - No change in errors, not emitting signal
+2025-04-16 10:19:17,201 - ftml_ast_highlighter - DEBUG - [ast_highlighter.py:276] - Calling rehighlight
+2025-04-16 10:19:18,346 - main_window - DEBUG - [main_window.py:398] - Switching to mode 1
+2025-04-16 10:19:18,346 - main_window - DEBUG - [main_window.py:407] - Activating Format Converter mode
+2025-04-16 10:19:18,535 - main_window - DEBUG - [main_window.py:412] - Content widget switched to index 1
+2025-04-16 10:19:18,535 - main_window - DEBUG - [main_window.py:422] - Focus set to converter widget
+2025-04-16 10:19:18,801 - main_window - DEBUG - [main_window.py:398] - Switching to mode 0
+2025-04-16 10:19:18,802 - main_window - DEBUG - [main_window.py:407] - Activating FTML Editor mode
+2025-04-16 10:19:18,802 - main_window - DEBUG - [main_window.py:412] - Content widget switched to index 0
+2025-04-16 10:19:18,802 - main_window - DEBUG - [main_window.py:419] - Focus set to editor widget
+2025-04-16 10:19:19,220 - main_window - DEBUG - [main_window.py:398] - Switching to mode 1
+2025-04-16 10:19:19,220 - main_window - DEBUG - [main_window.py:407] - Activating Format Converter mode
+2025-04-16 10:19:19,221 - main_window - DEBUG - [main_window.py:412] - Content widget switched to index 1
+2025-04-16 10:19:19,221 - main_window - DEBUG - [main_window.py:422] - Focus set to converter widget

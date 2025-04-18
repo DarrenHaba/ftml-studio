@@ -1,0 +1,13 @@
+QWidget {
+    background-color: #2d2d2d;
+    color: #cccccc;
+    font-family: "Segoe UI";
+}
+
+QTextEdit {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #444444;
+}
+
+/* Add other widget-specific styles */

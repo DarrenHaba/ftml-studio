@@ -1,0 +1,5 @@
+2025-04-11 18:29:05,807 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 18:29:05,807 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 18:29:05,831 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 18:29:05,831 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 18:29:05,836 - ftml_converter - DEBUG - UI setup complete

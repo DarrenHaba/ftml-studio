@@ -1,0 +1,76 @@
+/* src/ftml_studio/ui/resources/styles/sidebar.css */
+
+/* Sidebar container */
+#sidebar {
+    background-color: #333333;
+    border-right: 1px solid #555555;
+    min-width: 50px;
+    max-width: 200px;
+    transition: width 0.2s ease-in-out;
+}
+
+/* Sidebar buttons */
+#sidebarButton {
+    color: #f0f0f0;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    text-align: left;
+    padding: 8px 10px;
+    font-size: 14px;
+    margin: 2px 0;
+}
+
+#sidebarButton:hover {
+    background-color: #444444;
+}
+
+#sidebarButton:checked {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Hamburger button */
+QToolButton#hamburgerButton {
+    border: none;
+    background-color: transparent;
+    padding: 8px;
+}
+
+QToolButton#hamburgerButton:hover {
+    background-color: #444444;
+}
+
+/* Separator line */
+QFrame#separator {
+    background-color: #555555;
+    max-height: 1px;
+    min-height: 1px;
+}
+
+/* For light theme adjustments */
+.light-theme #sidebar {
+    background-color: #e0e0e0;
+    border-right: 1px solid #cccccc;
+}
+
+.light-theme #sidebarButton {
+    color: #333333;
+}
+
+.light-theme #sidebarButton:hover {
+    background-color: #d0d0d0;
+}
+
+.light-theme #sidebarButton:checked {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.light-theme QToolButton#hamburgerButton:hover {
+    background-color: #d0d0d0;
+}
+
+.light-theme QFrame#separator {
+    background-color: #cccccc;
+}

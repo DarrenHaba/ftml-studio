@@ -1,0 +1,233 @@
+/* Header styles */
+#header {
+    border-bottom: 1px solid;
+}
+
+#headerTab {
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    min-width: 120px;
+}
+
+#settingsButton {
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
+    background-color: transparent;
+}
+
+/* Convert button styling */
+#convertButton {
+    padding: 8px 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+/* Light theme styles */
+.light #header {
+    background-color: #f5f5f5;
+    border-bottom-color: #d0d0d0;
+}
+
+.light #headerTab {
+    background-color: #e0e0e0;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.light #headerTab:checked {
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #43a047;
+}
+
+.light #settingsButton {
+    color: #333;
+}
+
+.light #settingsButton:hover {
+    background-color: #e0e0e0;
+}
+
+.light #convertButton {
+    background-color: #4caf50;
+    color: white;
+}
+
+.light #convertButton:hover {
+    background-color: #43a047;
+}
+
+/* Dark theme styles */
+.dark #header {
+    background-color: #2a2a2a;
+    border-bottom-color: #3a3a3a;
+}
+
+.dark #headerTab {
+    background-color: #3a3a3a;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+.dark #headerTab:checked {
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #43a047;
+}
+
+.dark #settingsButton {
+    color: #e0e0e0;
+}
+
+.dark #settingsButton:hover {
+    background-color: #3a3a3a;
+}
+
+.dark #convertButton {
+    background-color: #4caf50;
+    color: white;
+}
+
+.dark #convertButton:hover {
+    background-color: #43a047;
+}
+
+#closeButton {
+    font-size: 12px;
+    border-radius: 12px;
+    border: none;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.light #closeButton {
+    color: #666;
+}
+
+.light #closeButton:hover {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.dark #closeButton {
+    color: #aaa;
+}
+
+.dark #closeButton:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+/* Common styles for both light and dark themes */
+#sidebar {
+    border-right: 1px solid;
+}
+
+#sidebarButton {
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+}
+
+#sidebarButton:hover {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+#settingsPanel {
+    border-left: 1px solid;
+}
+
+#settingsHeader {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#settingsLabel {
+    font-weight: bold;
+}
+
+/* Light theme specific styles */
+.light #sidebar {
+    background-color: #f5f5f5;
+    border-right-color: #d0d0d0;
+}
+
+.light #sidebarButton {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.light #settingsPanel {
+    background-color: #f8f8f8;
+    border-left-color: #d0d0d0;
+}
+
+.light #settingsHeader {
+    color: #333;
+}
+
+/* Dark theme specific styles */
+.dark #sidebar {
+    background-color: #2a2a2a;
+    border-right-color: #3a3a3a;
+}
+
+.dark #sidebarButton {
+    background-color: #3a3a3a;
+    color: #e0e0e0;
+}
+
+.dark #settingsPanel {
+    background-color: #2a2a2a;
+    border-left-color: #3a3a3a;
+}
+
+.dark #settingsHeader {
+    color: #e0e0e0;
+}
+
+/* Toolbar buttons */
+QPushButton[checkable="true"] {
+    border-radius: 4px;
+    padding: 6px 12px;
+    min-width: 100px;
+}
+
+.light QPushButton[checkable="true"] {
+    background-color: #e0e0e0;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.light QPushButton[checkable="true"]:checked {
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #43a047;
+}
+
+.dark QPushButton[checkable="true"] {
+    background-color: #3a3a3a;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+.dark QPushButton[checkable="true"]:checked {
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #43a047;
+}
+
+/* Splitter handle */
+QSplitter::handle {
+    background-color: #d0d0d0;
+    width: 1px;
+}
+
+.dark QSplitter::handle {
+    background-color: #3a3a3a;
+}

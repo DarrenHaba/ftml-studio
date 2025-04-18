@@ -1,0 +1,499 @@
+2025-04-11 18:26:31,929 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 18:26:31,929 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 18:26:31,954 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 18:26:31,955 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 18:26:31,959 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 18:26:41,731 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 18:26:41,731 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 18:26:41,754 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 18:26:41,754 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 18:26:41,759 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 18:26:47,514 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 18:26:47,515 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 18:26:47,539 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 18:26:47,539 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 18:26:47,544 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 18:26:49,867 - ftml_converter - DEBUG - Converting from json to ftml
+2025-04-11 18:26:49,868 - ftml_converter - DEBUG - Source content: {"name":"John"}...
+2025-04-11 18:26:49,869 - ftml_converter - DEBUG - Getting converter for json to ftml
+2025-04-11 18:26:49,869 - ftml_converter - DEBUG - Creating JSON to FTML converter
+2025-04-11 18:26:49,870 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 18:26:49,870 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 18:26:49,870 - json_converter - DEBUG - Starting JSON to FTML conversion
+2025-04-11 18:26:49,871 - json_converter - DEBUG - Parsed JSON data: {'name': 'John'}...
+2025-04-11 18:26:49,871 - json_converter - DEBUG - Converting JSON to FTML, indent=0, type=<class 'dict'>
+2025-04-11 18:26:49,871 - json_converter - DEBUG - Formatting scalar value: John (type: <class 'str'>)
+2025-04-11 18:26:49,871 - json_converter - DEBUG - Conversion result: name = "John"...
+2025-04-11 18:26:49,872 - ftml_converter - DEBUG - Conversion result: name = "John"...
+2025-04-11 18:26:49,872 - ftml_converter - INFO - Conversion from json to ftml successful
+2025-04-11 18:26:59,286 - ftml_converter - DEBUG - Converting from json to ftml
+2025-04-11 18:26:59,286 - ftml_converter - DEBUG - Source content: {"name":John"}...
+2025-04-11 18:26:59,286 - ftml_converter - DEBUG - Getting converter for json to ftml
+2025-04-11 18:26:59,287 - ftml_converter - DEBUG - Creating JSON to FTML converter
+2025-04-11 18:26:59,287 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 18:26:59,287 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 18:26:59,287 - json_converter - DEBUG - Starting JSON to FTML conversion
+2025-04-11 18:26:59,288 - json_converter - ERROR - JSON parsing error at line 1, column 9: Expecting value
+2025-04-11 18:26:59,288 - ftml_converter - ERROR - Conversion error: JSON parsing error at line 1, column 9: Expecting value
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 22, in convert
+    data = json.loads(content)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\dev\python\python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\dev\python\python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\dev\python\python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 9 (char 8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\ui\converter_window.py", line 198, in convert
+    result = converter.convert(source_content)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 32, in convert
+    raise ValueError(error_msg)
+ValueError: JSON parsing error at line 1, column 9: Expecting value
+2025-04-11 18:27:25,838 - ftml_converter - DEBUG - Converting from ftml to json
+2025-04-11 18:27:25,840 - ftml_converter - DEBUG - Source content: ftml = 123...
+2025-04-11 18:27:25,840 - ftml_converter - DEBUG - Getting converter for ftml to json
+2025-04-11 18:27:25,840 - ftml_converter - DEBUG - Creating FTML to JSON converter
+2025-04-11 18:27:25,841 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 18:27:25,841 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 18:27:25,841 - json_converter - DEBUG - Starting FTML to JSON conversion
+2025-04-11 18:27:25,842 - json_converter - DEBUG - Parsed FTML data: {'ftml': 123}...
+2025-04-11 18:27:25,842 - json_converter - DEBUG - Conversion result: {
+  "ftml": 123
+}...
+2025-04-11 18:27:25,843 - ftml_converter - DEBUG - Conversion result: {
+  "ftml": 123
+}...
+2025-04-11 18:27:25,843 - ftml_converter - INFO - Conversion from ftml to json successful
+2025-04-11 18:27:35,925 - ftml_converter - DEBUG - Converting from ftml to json
+2025-04-11 18:27:35,927 - ftml_converter - DEBUG - Source content: ftml = 12"3...
+2025-04-11 18:27:35,927 - ftml_converter - DEBUG - Getting converter for ftml to json
+2025-04-11 18:27:35,927 - ftml_converter - DEBUG - Creating FTML to JSON converter
+2025-04-11 18:27:35,928 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 18:27:35,928 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 18:27:35,928 - json_converter - DEBUG - Starting FTML to JSON conversion
+2025-04-11 18:27:35,929 - json_converter - ERROR - FTML parsing error: Tokenization error at line 1, col 10: unrecognized text '"3'
+2025-04-11 18:27:35,929 - ftml_converter - ERROR - Conversion error: FTML parsing error: Tokenization error at line 1, col 10: unrecognized text '"3'
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 42, in convert
+    data = ftml.load(content)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\__init__.py", line 83, in load
+    ast = parse(ftml_data)
+          ^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\parser.py", line 396, in parse
+    tokens = tokenizer.tokenize()
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\tokenizer.py", line 230, in tokenize
+    token = self.next_token()
+            ^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\tokenizer.py", line 145, in next_token
+    raise FTMLParseError(
+ftml.exceptions.FTMLParseError: Tokenization error at line 1, col 10: unrecognized text '"3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\ui\converter_window.py", line 198, in convert
+    result = converter.convert(source_content)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 52, in convert
+    raise ValueError(error_msg)
+ValueError: FTML parsing error: Tokenization error at line 1, col 10: unrecognized text '"3'
+2025-04-11 18:27:50,526 - ftml_converter - DEBUG - Converting from ftml to json
+2025-04-11 18:27:50,527 - ftml_converter - DEBUG - Source content: ftml = "123...
+2025-04-11 18:27:50,528 - ftml_converter - DEBUG - Getting converter for ftml to json
+2025-04-11 18:27:50,528 - ftml_converter - DEBUG - Creating FTML to JSON converter
+2025-04-11 18:27:50,529 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 18:27:50,529 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 18:27:50,529 - json_converter - DEBUG - Starting FTML to JSON conversion
+2025-04-11 18:27:50,529 - json_converter - ERROR - FTML parsing error: Tokenization error at line 1, col 8: unrecognized text '"123'
+2025-04-11 18:27:50,530 - ftml_converter - ERROR - Conversion error: FTML parsing error: Tokenization error at line 1, col 8: unrecognized text '"123'
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 42, in convert
+    data = ftml.load(content)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\__init__.py", line 83, in load
+    ast = parse(ftml_data)
+          ^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\parser.py", line 396, in parse
+    tokens = tokenizer.tokenize()
+             ^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\tokenizer.py", line 230, in tokenize
+    token = self.next_token()
+            ^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\tokenizer.py", line 145, in next_token
+    raise FTMLParseError(
+ftml.exceptions.FTMLParseError: Tokenization error at line 1, col 8: unrecognized text '"123'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\ui\converter_window.py", line 198, in convert
+    result = converter.convert(source_content)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 52, in convert
+    raise ValueError(error_msg)
+ValueError: FTML parsing error: Tokenization error at line 1, col 8: unrecognized text '"123'
+2025-04-11 18:29:50,332 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 18:29:50,332 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 18:29:50,353 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 18:29:50,353 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 18:29:50,366 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 18:30:32,062 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 18:30:32,062 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 18:30:32,086 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 18:30:32,086 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 18:30:32,097 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 18:31:00,992 - ftml_converter - DEBUG - Converting from ftml to ftml
+2025-04-11 18:31:00,992 - ftml_converter - DEBUG - Source content: f = 5...
+2025-04-11 18:31:00,992 - ftml_converter - DEBUG - Getting converter for ftml to ftml
+2025-04-11 18:31:00,992 - ftml_converter - WARNING - Unsupported conversion: ftml to ftml
+2025-04-11 18:31:00,992 - ftml_converter - ERROR - Conversion error: Conversion from ftml to ftml is not supported
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\ui\converter_window.py", line 194, in convert
+    converter = get_converter(source_fmt, target_fmt)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\ui\converter_window.py", line 66, in get_converter
+    raise ValueError(f"Conversion from {source_fmt} to {target_fmt} is not supported")
+ValueError: Conversion from ftml to ftml is not supported
+2025-04-11 18:31:06,504 - ftml_converter - DEBUG - Opening save dialog for json files
+2025-04-11 18:31:09,058 - ftml_converter - DEBUG - Converting from ftml to json
+2025-04-11 18:31:09,058 - ftml_converter - DEBUG - Source content: f = 5...
+2025-04-11 18:31:09,058 - ftml_converter - DEBUG - Getting converter for ftml to json
+2025-04-11 18:31:09,058 - ftml_converter - DEBUG - Creating FTML to JSON converter
+2025-04-11 18:31:09,058 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 18:31:09,058 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 18:31:09,058 - json_converter - DEBUG - Starting FTML to JSON conversion
+2025-04-11 18:31:09,058 - json_converter - DEBUG - Parsed FTML data: {'f': 5}...
+2025-04-11 18:31:09,059 - json_converter - DEBUG - Conversion result: {
+  "f": 5
+}...
+2025-04-11 18:31:09,059 - ftml_converter - DEBUG - Conversion result: {
+  "f": 5
+}...
+2025-04-11 18:31:09,059 - ftml_converter - INFO - Conversion from ftml to json successful
+2025-04-11 18:31:10,734 - ftml_converter - DEBUG - Opening save dialog for json files
+2025-04-11 18:31:14,718 - ftml_converter - DEBUG - Saving to file: C:/projects/_open_source/ftml-studio/src/ftml_studio/ui/foooo.json
+2025-04-11 18:31:14,719 - ftml_converter - INFO - Successfully saved to file: C:/projects/_open_source/ftml-studio/src/ftml_studio/ui/foooo.json
+2025-04-11 18:36:40,885 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 18:36:40,885 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 18:36:40,909 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 18:36:40,909 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 18:36:40,914 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 18:40:30,799 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 18:40:30,799 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 18:40:30,824 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 18:40:30,824 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 18:40:30,837 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 18:40:42,342 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 18:40:42,342 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 18:40:42,367 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 18:40:42,367 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 18:40:42,379 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 18:40:57,417 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 18:40:57,417 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 18:40:57,441 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 18:40:57,441 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 18:40:57,448 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 18:54:13,950 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 18:54:13,950 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 18:54:13,976 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 18:54:13,976 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 18:54:13,988 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 18:54:15,951 - ftml_converter - DEBUG - Converting from json to ftml
+2025-04-11 18:54:15,951 - ftml_converter - DEBUG - Source content: ...
+2025-04-11 18:54:15,951 - ftml_converter - WARNING - No content to convert
+2025-04-11 19:04:21,582 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 19:04:21,582 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 19:04:21,609 - theme_manager - DEBUG - Applied theme: auto (resolved to auto)
+2025-04-11 19:04:21,609 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 19:04:21,609 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 19:04:21,622 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 21:28:11,690 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 21:28:11,690 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 21:28:11,748 - theme_manager - DEBUG - Applied theme: auto (resolved to auto)
+2025-04-11 21:28:11,748 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 21:28:11,748 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 21:28:11,766 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 21:28:18,722 - ftml_converter - WARNING - No content to save
+2025-04-11 21:28:27,023 - theme_manager - DEBUG - Applied theme: dark (resolved to dark)
+2025-04-11 21:28:27,023 - ftml_converter - DEBUG - Changed theme to dark
+2025-04-11 21:28:29,091 - theme_manager - DEBUG - Applied theme: light (resolved to light)
+2025-04-11 21:28:29,091 - ftml_converter - DEBUG - Changed theme to light
+2025-04-11 21:28:34,372 - theme_manager - DEBUG - Applied theme: auto (resolved to auto)
+2025-04-11 21:28:34,373 - ftml_converter - DEBUG - Changed theme to auto
+2025-04-11 21:29:00,366 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 21:29:00,366 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 21:29:00,389 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 21:29:00,390 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 21:29:00,400 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 21:32:40,787 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 21:32:40,788 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 21:32:40,820 - theme_manager - DEBUG - Applied theme: auto (resolved to dark)
+2025-04-11 21:32:40,820 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 21:32:40,820 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 21:32:40,832 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 21:34:31,027 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 21:34:31,027 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 21:34:31,056 - theme_manager - DEBUG - Applied theme: auto (resolved to dark)
+2025-04-11 21:34:31,057 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 21:34:31,057 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 21:34:31,076 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 21:34:44,788 - ftml_converter - DEBUG - Getting converter for json to ftml
+2025-04-11 21:34:44,788 - ftml_converter - DEBUG - Creating JSON to FTML converter
+2025-04-11 21:34:44,788 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 21:34:44,788 - json_converter - DEBUG - Starting JSON to FTML conversion
+2025-04-11 21:34:44,788 - json_converter - ERROR - JSON parsing error at line 1, column 1: Expecting value
+2025-04-11 21:34:44,789 - ftml_converter - ERROR - Conversion error: JSON parsing error at line 1, column 1: Expecting value
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 22, in convert
+    data = json.loads(content)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\dev\python\python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\dev\python\python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\dev\python\python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\ui\converter_window.py", line 237, in convert
+    result = converter.convert(source_content)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 32, in convert
+    raise ValueError(error_msg)
+ValueError: JSON parsing error at line 1, column 1: Expecting value
+2025-04-11 21:35:01,937 - ftml_converter - DEBUG - Getting converter for ftml to json
+2025-04-11 21:35:01,937 - ftml_converter - DEBUG - Creating FTML to JSON converter
+2025-04-11 21:35:01,937 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 21:35:01,937 - json_converter - DEBUG - Starting FTML to JSON conversion
+2025-04-11 21:35:01,938 - json_converter - DEBUG - Parsed FTML data: {'foo': 'bar'}...
+2025-04-11 21:35:01,938 - json_converter - DEBUG - Conversion result: {
+  "foo": "bar"
+}...
+2025-04-11 21:35:01,939 - ftml_converter - INFO - Conversion from ftml to json successful
+2025-04-11 21:35:14,046 - ftml_converter - DEBUG - Getting converter for ftml to json
+2025-04-11 21:35:14,047 - ftml_converter - DEBUG - Creating FTML to JSON converter
+2025-04-11 21:35:14,047 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 21:35:14,047 - json_converter - DEBUG - Starting FTML to JSON conversion
+2025-04-11 21:35:14,047 - json_converter - DEBUG - Parsed FTML data: {'foo': 'bar', 'bar': 'foo'}...
+2025-04-11 21:35:14,047 - json_converter - DEBUG - Conversion result: {
+  "foo": "bar",
+  "bar": "foo"
+}...
+2025-04-11 21:35:14,047 - ftml_converter - INFO - Conversion from ftml to json successful
+2025-04-11 21:36:06,973 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 21:36:06,973 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 21:36:06,999 - theme_manager - DEBUG - Applied theme: auto (resolved to dark)
+2025-04-11 21:36:06,999 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 21:36:06,999 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 21:36:07,016 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 21:36:13,413 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 21:36:13,413 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 21:36:13,441 - theme_manager - DEBUG - Applied theme: auto (resolved to dark)
+2025-04-11 21:36:13,442 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 21:36:13,442 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 21:36:13,461 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 21:36:23,198 - ftml_converter - DEBUG - Getting converter for json to ftml
+2025-04-11 21:36:23,198 - ftml_converter - DEBUG - Creating JSON to FTML converter
+2025-04-11 21:36:23,198 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 21:36:23,198 - json_converter - DEBUG - Starting JSON to FTML conversion
+2025-04-11 21:36:23,198 - json_converter - ERROR - JSON parsing error at line 1, column 1: Expecting value
+2025-04-11 21:36:23,198 - ftml_converter - ERROR - Conversion error: JSON parsing error at line 1, column 1: Expecting value
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 22, in convert
+    data = json.loads(content)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\dev\python\python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\dev\python\python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\dev\python\python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\ui\converter_window.py", line 237, in convert
+    result = converter.convert(source_content)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 32, in convert
+    raise ValueError(error_msg)
+ValueError: JSON parsing error at line 1, column 1: Expecting value
+2025-04-11 21:36:25,462 - ftml_converter - DEBUG - Opening file dialog for json files
+2025-04-11 21:36:30,080 - ftml_converter - DEBUG - Getting converter for ftml to ftml
+2025-04-11 21:36:30,080 - ftml_converter - WARNING - Unsupported conversion: ftml to ftml
+2025-04-11 21:36:30,080 - ftml_converter - ERROR - Conversion error: Conversion from ftml to ftml is not supported
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\ui\converter_window.py", line 236, in convert
+    converter = get_converter(source_fmt, target_fmt)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\ui\converter_window.py", line 68, in get_converter
+    raise ValueError(f"Conversion from {source_fmt} to {target_fmt} is not supported")
+ValueError: Conversion from ftml to ftml is not supported
+2025-04-11 21:36:33,578 - ftml_converter - DEBUG - Opening file dialog for json files
+2025-04-11 21:36:38,068 - ftml_converter - DEBUG - Getting converter for ftml to ftml
+2025-04-11 21:36:38,068 - ftml_converter - WARNING - Unsupported conversion: ftml to ftml
+2025-04-11 21:36:38,068 - ftml_converter - ERROR - Conversion error: Conversion from ftml to ftml is not supported
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\ui\converter_window.py", line 236, in convert
+    converter = get_converter(source_fmt, target_fmt)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\ui\converter_window.py", line 68, in get_converter
+    raise ValueError(f"Conversion from {source_fmt} to {target_fmt} is not supported")
+ValueError: Conversion from ftml to ftml is not supported
+2025-04-11 21:36:41,606 - ftml_converter - DEBUG - Getting converter for ftml to json
+2025-04-11 21:36:41,606 - ftml_converter - DEBUG - Creating FTML to JSON converter
+2025-04-11 21:36:41,606 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 21:36:41,606 - json_converter - DEBUG - Starting FTML to JSON conversion
+2025-04-11 21:36:41,607 - json_converter - ERROR - FTML parsing error: Expected '=' after key 'foo' at line 1, col 4. Got EOF None
+2025-04-11 21:36:41,608 - ftml_converter - ERROR - Conversion error: FTML parsing error: Expected '=' after key 'foo' at line 1, col 4. Got EOF None
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 42, in convert
+    data = ftml.load(content)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\__init__.py", line 83, in load
+    ast = parse(ftml_data)
+          ^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\parser.py", line 401, in parse
+    ast = structure_parser.parse()
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\parser.py", line 142, in parse
+    kv_node = self._parse_key_value_pair()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\parser.py", line 199, in _parse_key_value_pair
+    self.consume(TokenType.EQUAL, f"Expected '=' after key '{key}'")
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\parser.py", line 114, in consume
+    raise FTMLParseError(
+ftml.exceptions.FTMLParseError: Expected '=' after key 'foo' at line 1, col 4. Got EOF None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\ui\converter_window.py", line 237, in convert
+    result = converter.convert(source_content)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 52, in convert
+    raise ValueError(error_msg)
+ValueError: FTML parsing error: Expected '=' after key 'foo' at line 1, col 4. Got EOF None
+2025-04-11 21:36:57,752 - ftml_converter - DEBUG - Getting converter for ftml to json
+2025-04-11 21:36:57,752 - ftml_converter - DEBUG - Creating FTML to JSON converter
+2025-04-11 21:36:57,752 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 21:36:57,752 - json_converter - DEBUG - Starting FTML to JSON conversion
+2025-04-11 21:36:57,752 - json_converter - ERROR - FTML parsing error: Expected '=' after key 'foo' at line 1, col 4. Got EOF None
+2025-04-11 21:36:57,753 - ftml_converter - ERROR - Conversion error: FTML parsing error: Expected '=' after key 'foo' at line 1, col 4. Got EOF None
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 42, in convert
+    data = ftml.load(content)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\__init__.py", line 83, in load
+    ast = parse(ftml_data)
+          ^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\parser.py", line 401, in parse
+    ast = structure_parser.parse()
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\parser.py", line 142, in parse
+    kv_node = self._parse_key_value_pair()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\parser.py", line 199, in _parse_key_value_pair
+    self.consume(TokenType.EQUAL, f"Expected '=' after key '{key}'")
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\parser.py", line 114, in consume
+    raise FTMLParseError(
+ftml.exceptions.FTMLParseError: Expected '=' after key 'foo' at line 1, col 4. Got EOF None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\ui\converter_window.py", line 237, in convert
+    result = converter.convert(source_content)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 52, in convert
+    raise ValueError(error_msg)
+ValueError: FTML parsing error: Expected '=' after key 'foo' at line 1, col 4. Got EOF None
+2025-04-11 21:37:09,067 - ftml_converter - DEBUG - Getting converter for ftml to json
+2025-04-11 21:37:09,067 - ftml_converter - DEBUG - Creating FTML to JSON converter
+2025-04-11 21:37:09,067 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 21:37:09,067 - json_converter - DEBUG - Starting FTML to JSON conversion
+2025-04-11 21:37:09,068 - json_converter - ERROR - FTML parsing error: Expected a value at line 1, col 5. Got IDENT 'baer'
+2025-04-11 21:37:09,068 - ftml_converter - ERROR - Conversion error: FTML parsing error: Expected a value at line 1, col 5. Got IDENT 'baer'
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 42, in convert
+    data = ftml.load(content)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\__init__.py", line 83, in load
+    ast = parse(ftml_data)
+          ^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\parser.py", line 401, in parse
+    ast = structure_parser.parse()
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\parser.py", line 142, in parse
+    kv_node = self._parse_key_value_pair()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\parser.py", line 205, in _parse_key_value_pair
+    value_node = self._parse_value()
+                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\parser.py", line 244, in _parse_value
+    raise FTMLParseError(
+ftml.exceptions.FTMLParseError: Expected a value at line 1, col 5. Got IDENT 'baer'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\ui\converter_window.py", line 237, in convert
+    result = converter.convert(source_content)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 52, in convert
+    raise ValueError(error_msg)
+ValueError: FTML parsing error: Expected a value at line 1, col 5. Got IDENT 'baer'
+2025-04-11 21:37:37,468 - ftml_converter - DEBUG - Getting converter for ftml to json
+2025-04-11 21:37:37,469 - ftml_converter - DEBUG - Creating FTML to JSON converter
+2025-04-11 21:37:37,469 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 21:37:37,469 - json_converter - DEBUG - Starting FTML to JSON conversion
+2025-04-11 21:37:37,469 - json_converter - ERROR - FTML parsing error: Expected a value at line 1, col 6. Got IDENT 'baer'
+2025-04-11 21:37:37,469 - ftml_converter - ERROR - Conversion error: FTML parsing error: Expected a value at line 1, col 6. Got IDENT 'baer'
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 42, in convert
+    data = ftml.load(content)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\__init__.py", line 83, in load
+    ast = parse(ftml_data)
+          ^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\parser.py", line 401, in parse
+    ast = structure_parser.parse()
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\parser.py", line 142, in parse
+    kv_node = self._parse_key_value_pair()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\parser.py", line 205, in _parse_key_value_pair
+    value_node = self._parse_value()
+                 ^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\.venv\Lib\site-packages\ftml\parser\parser.py", line 244, in _parse_value
+    raise FTMLParseError(
+ftml.exceptions.FTMLParseError: Expected a value at line 1, col 6. Got IDENT 'baer'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\ui\converter_window.py", line 237, in convert
+    result = converter.convert(source_content)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 52, in convert
+    raise ValueError(error_msg)
+ValueError: FTML parsing error: Expected a value at line 1, col 6. Got IDENT 'baer'

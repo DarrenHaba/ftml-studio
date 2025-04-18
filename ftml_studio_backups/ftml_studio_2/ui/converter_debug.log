@@ -1,0 +1,426 @@
+2025-04-11 17:38:50,759 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 17:38:50,759 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 17:38:50,781 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 17:38:50,781 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 17:38:50,785 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 17:38:59,949 - ftml_converter - DEBUG - Opening file dialog for json files
+2025-04-11 17:39:02,653 - ftml_converter - DEBUG - Converting from json to ftml
+2025-04-11 17:39:02,654 - ftml_converter - DEBUG - Source content: {"name":"John Doe","age":30,"city":"New York"}...
+2025-04-11 17:39:02,658 - ftml_converter - DEBUG - Getting converter for json to ftml
+2025-04-11 17:39:02,658 - ftml_converter - DEBUG - Creating JSON to FTML converter
+2025-04-11 17:39:02,658 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 17:39:02,658 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 17:39:02,659 - json_converter - DEBUG - Starting JSON to FTML conversion
+2025-04-11 17:39:02,659 - json_converter - DEBUG - Parsed JSON data: {'name': 'John Doe', 'age': 30, 'city': 'New York'}...
+2025-04-11 17:39:02,659 - json_converter - DEBUG - Converting JSON to FTML, indent=0, type=<class 'dict'>
+2025-04-11 17:39:02,659 - json_converter - DEBUG - Formatting scalar value: John Doe (type: <class 'str'>)
+2025-04-11 17:39:02,659 - json_converter - DEBUG - Formatting scalar value: 30 (type: <class 'int'>)
+2025-04-11 17:39:02,659 - json_converter - DEBUG - Formatting scalar value: New York (type: <class 'str'>)
+2025-04-11 17:39:02,659 - json_converter - DEBUG - Conversion result: name = "John Doe"
+age = 30
+city = "New York"...
+2025-04-11 17:39:02,660 - ftml_converter - DEBUG - Conversion result: name = "John Doe"
+age = 30
+city = "New York"...
+2025-04-11 17:39:02,660 - ftml_converter - INFO - Conversion from json to ftml successful
+2025-04-11 17:39:58,004 - ftml_converter - DEBUG - Converting from json to ftml
+2025-04-11 17:39:58,004 - ftml_converter - DEBUG - Source content: {"products":["apple","banana","orange"],"quantity":3,"inStock":true}...
+2025-04-11 17:39:58,005 - ftml_converter - DEBUG - Getting converter for json to ftml
+2025-04-11 17:39:58,005 - ftml_converter - DEBUG - Creating JSON to FTML converter
+2025-04-11 17:39:58,005 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 17:39:58,005 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 17:39:58,005 - json_converter - DEBUG - Starting JSON to FTML conversion
+2025-04-11 17:39:58,005 - json_converter - DEBUG - Parsed JSON data: {'products': ['apple', 'banana', 'orange'], 'quantity': 3, 'inStock': True}...
+2025-04-11 17:39:58,005 - json_converter - DEBUG - Converting JSON to FTML, indent=0, type=<class 'dict'>
+2025-04-11 17:39:58,005 - json_converter - DEBUG - Converting JSON array to FTML, indent=4, length=3
+2025-04-11 17:39:58,006 - json_converter - DEBUG - Formatting scalar value: apple (type: <class 'str'>)
+2025-04-11 17:39:58,006 - json_converter - DEBUG - Formatting scalar value: banana (type: <class 'str'>)
+2025-04-11 17:39:58,006 - json_converter - DEBUG - Formatting scalar value: orange (type: <class 'str'>)
+2025-04-11 17:39:58,007 - json_converter - DEBUG - Formatting scalar value: 3 (type: <class 'int'>)
+2025-04-11 17:39:58,007 - json_converter - DEBUG - Formatting scalar value: True (type: <class 'bool'>)
+2025-04-11 17:39:58,007 - json_converter - DEBUG - Conversion result: products = ["apple", "banana", "orange"]
+quantity = 3
+inStock = true...
+2025-04-11 17:39:58,007 - ftml_converter - DEBUG - Conversion result: products = ["apple", "banana", "orange"]
+quantity = 3
+inStock = true...
+2025-04-11 17:39:58,008 - ftml_converter - INFO - Conversion from json to ftml successful
+2025-04-11 17:40:55,395 - ftml_converter - DEBUG - Converting from json to json
+2025-04-11 17:40:55,395 - ftml_converter - DEBUG - Source content: {"products":["apple","banana","orange"],"quantity":3,"inStock":true}...
+2025-04-11 17:40:55,395 - ftml_converter - DEBUG - Getting converter for json to json
+2025-04-11 17:40:55,395 - ftml_converter - WARNING - Unsupported conversion: json to json
+2025-04-11 17:40:55,395 - ftml_converter - ERROR - Conversion error: Conversion from json to json is not supported
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio_backups\ftml_studio2c\ui\converter_window.py", line 194, in convert
+    converter = get_converter(source_fmt, target_fmt)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio_backups\ftml_studio2c\ui\converter_window.py", line 66, in get_converter
+    raise ValueError(f"Conversion from {source_fmt} to {target_fmt} is not supported")
+ValueError: Conversion from json to json is not supported
+2025-04-11 17:42:14,178 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 17:42:14,179 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 17:42:14,204 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 17:42:14,204 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 17:42:14,209 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 17:42:32,524 - ftml_converter - DEBUG - Converting from ftml to json
+2025-04-11 17:42:32,524 - ftml_converter - DEBUG - Source content: foo = 123...
+2025-04-11 17:42:32,524 - ftml_converter - DEBUG - Getting converter for ftml to json
+2025-04-11 17:42:32,524 - ftml_converter - DEBUG - Creating FTML to JSON converter
+2025-04-11 17:42:32,524 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 17:42:32,524 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 17:42:32,524 - json_converter - DEBUG - Starting FTML to JSON conversion
+2025-04-11 17:42:32,524 - json_converter - DEBUG - Parsing FTML to dictionary
+2025-04-11 17:42:32,525 - json_converter - DEBUG - Parsed FTML data: {'foo': 123}...
+2025-04-11 17:42:32,525 - json_converter - DEBUG - Conversion result: {
+  "foo": 123
+}...
+2025-04-11 17:42:32,525 - ftml_converter - DEBUG - Conversion result: {
+  "foo": 123
+}...
+2025-04-11 17:42:32,525 - ftml_converter - INFO - Conversion from ftml to json successful
+2025-04-11 17:47:02,930 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 17:47:02,930 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 17:47:02,951 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 17:47:02,951 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 17:47:02,956 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 17:47:08,755 - ftml_converter - DEBUG - Converting from json to ftml
+2025-04-11 17:47:08,755 - ftml_converter - DEBUG - Source content: {"name":"John"}...
+2025-04-11 17:47:08,756 - ftml_converter - DEBUG - Getting converter for json to ftml
+2025-04-11 17:47:08,756 - ftml_converter - DEBUG - Creating JSON to FTML converter
+2025-04-11 17:47:08,756 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 17:47:08,756 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 17:47:08,756 - json_converter - DEBUG - Starting JSON to FTML conversion
+2025-04-11 17:47:08,756 - json_converter - DEBUG - Parsed JSON data: {'name': 'John'}...
+2025-04-11 17:47:08,756 - json_converter - DEBUG - Converting JSON to FTML, indent=0, type=<class 'dict'>
+2025-04-11 17:47:08,756 - json_converter - DEBUG - Formatting scalar value: John (type: <class 'str'>)
+2025-04-11 17:47:08,756 - json_converter - DEBUG - Conversion result: name = "John"...
+2025-04-11 17:47:08,756 - ftml_converter - DEBUG - Conversion result: name = "John"...
+2025-04-11 17:47:08,757 - ftml_converter - INFO - Conversion from json to ftml successful
+2025-04-11 17:47:19,054 - ftml_converter - DEBUG - Converting from json to ftml
+2025-04-11 17:47:19,054 - ftml_converter - DEBUG - Source content: {"name":"John"}...
+2025-04-11 17:47:19,054 - ftml_converter - DEBUG - Getting converter for json to ftml
+2025-04-11 17:47:19,054 - ftml_converter - DEBUG - Creating JSON to FTML converter
+2025-04-11 17:47:19,054 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 17:47:19,054 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 17:47:19,054 - json_converter - DEBUG - Starting JSON to FTML conversion
+2025-04-11 17:47:19,054 - json_converter - DEBUG - Parsed JSON data: {'name': 'John'}...
+2025-04-11 17:47:19,054 - json_converter - DEBUG - Converting JSON to FTML, indent=0, type=<class 'dict'>
+2025-04-11 17:47:19,054 - json_converter - DEBUG - Formatting scalar value: John (type: <class 'str'>)
+2025-04-11 17:47:19,054 - json_converter - DEBUG - Conversion result: name = "John"...
+2025-04-11 17:47:19,054 - ftml_converter - DEBUG - Conversion result: name = "John"...
+2025-04-11 17:47:19,054 - ftml_converter - INFO - Conversion from json to ftml successful
+2025-04-11 17:47:24,328 - ftml_converter - DEBUG - Converting from json to ftml
+2025-04-11 17:47:24,328 - ftml_converter - DEBUG - Source content: {"name":"John"}
+
+...
+2025-04-11 17:47:24,328 - ftml_converter - DEBUG - Getting converter for json to ftml
+2025-04-11 17:47:24,328 - ftml_converter - DEBUG - Creating JSON to FTML converter
+2025-04-11 17:47:24,328 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 17:47:24,328 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 17:47:24,328 - json_converter - DEBUG - Starting JSON to FTML conversion
+2025-04-11 17:47:24,328 - json_converter - DEBUG - Parsed JSON data: {'name': 'John'}...
+2025-04-11 17:47:24,328 - json_converter - DEBUG - Converting JSON to FTML, indent=0, type=<class 'dict'>
+2025-04-11 17:47:24,328 - json_converter - DEBUG - Formatting scalar value: John (type: <class 'str'>)
+2025-04-11 17:47:24,328 - json_converter - DEBUG - Conversion result: name = "John"...
+2025-04-11 17:47:24,328 - ftml_converter - DEBUG - Conversion result: name = "John"...
+2025-04-11 17:47:24,329 - ftml_converter - INFO - Conversion from json to ftml successful
+2025-04-11 17:47:26,033 - ftml_converter - DEBUG - Converting from json to ftml
+2025-04-11 17:47:26,033 - ftml_converter - DEBUG - Source content: {"name":"John"}
+
+...
+2025-04-11 17:47:26,033 - ftml_converter - DEBUG - Getting converter for json to ftml
+2025-04-11 17:47:26,033 - ftml_converter - DEBUG - Creating JSON to FTML converter
+2025-04-11 17:47:26,033 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 17:47:26,033 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 17:47:26,033 - json_converter - DEBUG - Starting JSON to FTML conversion
+2025-04-11 17:47:26,033 - json_converter - DEBUG - Parsed JSON data: {'name': 'John'}...
+2025-04-11 17:47:26,033 - json_converter - DEBUG - Converting JSON to FTML, indent=0, type=<class 'dict'>
+2025-04-11 17:47:26,033 - json_converter - DEBUG - Formatting scalar value: John (type: <class 'str'>)
+2025-04-11 17:47:26,033 - json_converter - DEBUG - Conversion result: name = "John"...
+2025-04-11 17:47:26,033 - ftml_converter - DEBUG - Conversion result: name = "John"...
+2025-04-11 17:47:26,033 - ftml_converter - INFO - Conversion from json to ftml successful
+2025-04-11 17:47:42,928 - ftml_converter - DEBUG - Converting from json to ftml
+2025-04-11 17:47:42,929 - ftml_converter - DEBUG - Source content: {"name":"John"}...
+2025-04-11 17:47:42,929 - ftml_converter - DEBUG - Getting converter for json to ftml
+2025-04-11 17:47:42,929 - ftml_converter - DEBUG - Creating JSON to FTML converter
+2025-04-11 17:47:42,929 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 17:47:42,929 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 17:47:42,929 - json_converter - DEBUG - Starting JSON to FTML conversion
+2025-04-11 17:47:42,929 - json_converter - DEBUG - Parsed JSON data: {'name': 'John'}...
+2025-04-11 17:47:42,929 - json_converter - DEBUG - Converting JSON to FTML, indent=0, type=<class 'dict'>
+2025-04-11 17:47:42,929 - json_converter - DEBUG - Formatting scalar value: John (type: <class 'str'>)
+2025-04-11 17:47:42,929 - json_converter - DEBUG - Conversion result: name = "John"...
+2025-04-11 17:47:42,929 - ftml_converter - DEBUG - Conversion result: name = "John"...
+2025-04-11 17:47:42,929 - ftml_converter - INFO - Conversion from json to ftml successful
+2025-04-11 17:47:45,227 - ftml_converter - DEBUG - Converting from json to ftml
+2025-04-11 17:47:45,227 - ftml_converter - DEBUG - Source content: {"name":"John"}...
+2025-04-11 17:47:45,227 - ftml_converter - DEBUG - Getting converter for json to ftml
+2025-04-11 17:47:45,227 - ftml_converter - DEBUG - Creating JSON to FTML converter
+2025-04-11 17:47:45,228 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 17:47:45,228 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 17:47:45,228 - json_converter - DEBUG - Starting JSON to FTML conversion
+2025-04-11 17:47:45,228 - json_converter - DEBUG - Parsed JSON data: {'name': 'John'}...
+2025-04-11 17:47:45,228 - json_converter - DEBUG - Converting JSON to FTML, indent=0, type=<class 'dict'>
+2025-04-11 17:47:45,228 - json_converter - DEBUG - Formatting scalar value: John (type: <class 'str'>)
+2025-04-11 17:47:45,228 - json_converter - DEBUG - Conversion result: name = "John"...
+2025-04-11 17:47:45,228 - ftml_converter - DEBUG - Conversion result: name = "John"...
+2025-04-11 17:47:45,228 - ftml_converter - INFO - Conversion from json to ftml successful
+2025-04-11 17:47:49,675 - ftml_converter - DEBUG - Converting from ftml to ftml
+2025-04-11 17:47:49,675 - ftml_converter - DEBUG - Source content: {"name":"John"}...
+2025-04-11 17:47:49,675 - ftml_converter - DEBUG - Getting converter for ftml to ftml
+2025-04-11 17:47:49,675 - ftml_converter - WARNING - Unsupported conversion: ftml to ftml
+2025-04-11 17:47:49,675 - ftml_converter - ERROR - Conversion error: Conversion from ftml to ftml is not supported
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio_backups\ftml_studio2c\ui\converter_window.py", line 203, in convert
+    converter = get_converter(source_fmt, target_fmt)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio_backups\ftml_studio2c\ui\converter_window.py", line 66, in get_converter
+    raise ValueError(f"Conversion from {source_fmt} to {target_fmt} is not supported")
+ValueError: Conversion from ftml to ftml is not supported
+2025-04-11 17:48:11,558 - ftml_converter - DEBUG - Converting from ftml to json
+2025-04-11 17:48:11,558 - ftml_converter - DEBUG - Source content: foo {bar = 123}...
+2025-04-11 17:48:11,558 - ftml_converter - DEBUG - Getting converter for ftml to json
+2025-04-11 17:48:11,558 - ftml_converter - DEBUG - Creating FTML to JSON converter
+2025-04-11 17:48:11,559 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 17:48:11,559 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 17:48:11,559 - json_converter - DEBUG - Starting FTML to JSON conversion
+2025-04-11 17:48:11,559 - json_converter - DEBUG - Parsing FTML to dictionary
+2025-04-11 17:48:11,559 - json_converter - DEBUG - Parsed FTML data: {'foo {bar': '123}'}...
+2025-04-11 17:48:11,559 - json_converter - DEBUG - Conversion result: {
+  "foo {bar": "123}"
+}...
+2025-04-11 17:48:11,559 - ftml_converter - DEBUG - Conversion result: {
+  "foo {bar": "123}"
+}...
+2025-04-11 17:48:11,559 - ftml_converter - INFO - Conversion from ftml to json successful
+2025-04-11 17:49:09,476 - ftml_converter - DEBUG - Converting from ftml to json
+2025-04-11 17:49:09,476 - ftml_converter - DEBUG - Source content: foo = {bar = 123}...
+2025-04-11 17:49:09,476 - ftml_converter - DEBUG - Getting converter for ftml to json
+2025-04-11 17:49:09,476 - ftml_converter - DEBUG - Creating FTML to JSON converter
+2025-04-11 17:49:09,476 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 17:49:09,476 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 17:49:09,476 - json_converter - DEBUG - Starting FTML to JSON conversion
+2025-04-11 17:49:09,476 - json_converter - DEBUG - Parsing FTML to dictionary
+2025-04-11 17:49:09,476 - json_converter - DEBUG - Parsed FTML data: {'foo': '{bar = 123}'}...
+2025-04-11 17:49:09,476 - json_converter - DEBUG - Conversion result: {
+  "foo": "{bar = 123}"
+}...
+2025-04-11 17:49:09,476 - ftml_converter - DEBUG - Conversion result: {
+  "foo": "{bar = 123}"
+}...
+2025-04-11 17:49:09,476 - ftml_converter - INFO - Conversion from ftml to json successful
+2025-04-11 17:49:16,983 - ftml_converter - DEBUG - Converting from ftml to json
+2025-04-11 17:49:16,983 - ftml_converter - DEBUG - Source content: foo {bar = 123}...
+2025-04-11 17:49:16,983 - ftml_converter - DEBUG - Getting converter for ftml to json
+2025-04-11 17:49:16,983 - ftml_converter - DEBUG - Creating FTML to JSON converter
+2025-04-11 17:49:16,983 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 17:49:16,983 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 17:49:16,983 - json_converter - DEBUG - Starting FTML to JSON conversion
+2025-04-11 17:49:16,983 - json_converter - DEBUG - Parsing FTML to dictionary
+2025-04-11 17:49:16,983 - json_converter - DEBUG - Parsed FTML data: {'foo {bar': '123}'}...
+2025-04-11 17:49:16,983 - json_converter - DEBUG - Conversion result: {
+  "foo {bar": "123}"
+}...
+2025-04-11 17:49:16,984 - ftml_converter - DEBUG - Conversion result: {
+  "foo {bar": "123}"
+}...
+2025-04-11 17:49:16,984 - ftml_converter - INFO - Conversion from ftml to json successful
+2025-04-11 17:49:25,253 - ftml_converter - DEBUG - Converting from ftml to json
+2025-04-11 17:49:25,254 - ftml_converter - DEBUG - Source content: foo = {bar = 123}...
+2025-04-11 17:49:25,254 - ftml_converter - DEBUG - Getting converter for ftml to json
+2025-04-11 17:49:25,254 - ftml_converter - DEBUG - Creating FTML to JSON converter
+2025-04-11 17:49:25,254 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 17:49:25,254 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 17:49:25,254 - json_converter - DEBUG - Starting FTML to JSON conversion
+2025-04-11 17:49:25,254 - json_converter - DEBUG - Parsing FTML to dictionary
+2025-04-11 17:49:25,254 - json_converter - DEBUG - Parsed FTML data: {'foo': '{bar = 123}'}...
+2025-04-11 17:49:25,254 - json_converter - DEBUG - Conversion result: {
+  "foo": "{bar = 123}"
+}...
+2025-04-11 17:49:25,254 - ftml_converter - DEBUG - Conversion result: {
+  "foo": "{bar = 123}"
+}...
+2025-04-11 17:49:25,254 - ftml_converter - INFO - Conversion from ftml to json successful
+2025-04-11 17:50:16,120 - ftml_converter - DEBUG - Converting from ftml to json
+2025-04-11 17:50:16,120 - ftml_converter - DEBUG - Source content: foo = {bar = 123}
+bar = {baz = 456}...
+2025-04-11 17:50:16,120 - ftml_converter - DEBUG - Getting converter for ftml to json
+2025-04-11 17:50:16,120 - ftml_converter - DEBUG - Creating FTML to JSON converter
+2025-04-11 17:50:16,120 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 17:50:16,120 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 17:50:16,120 - json_converter - DEBUG - Starting FTML to JSON conversion
+2025-04-11 17:50:16,120 - json_converter - DEBUG - Parsing FTML to dictionary
+2025-04-11 17:50:16,120 - json_converter - DEBUG - Parsed FTML data: {'foo': '{bar = 123}', 'bar': '{baz = 456}'}...
+2025-04-11 17:50:16,120 - json_converter - DEBUG - Conversion result: {
+  "foo": "{bar = 123}",
+  "bar": "{baz = 456}"
+}...
+2025-04-11 17:50:16,120 - ftml_converter - DEBUG - Conversion result: {
+  "foo": "{bar = 123}",
+  "bar": "{baz = 456}"
+}...
+2025-04-11 17:50:16,121 - ftml_converter - INFO - Conversion from ftml to json successful
+2025-04-11 17:50:32,950 - ftml_converter - DEBUG - Converting from ftml to json
+2025-04-11 17:50:32,950 - ftml_converter - DEBUG - Source content: foo = {bar = 123, waz = [123]}
+bar = {baz = 456}...
+2025-04-11 17:50:32,951 - ftml_converter - DEBUG - Getting converter for ftml to json
+2025-04-11 17:50:32,951 - ftml_converter - DEBUG - Creating FTML to JSON converter
+2025-04-11 17:50:32,951 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 17:50:32,951 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 17:50:32,951 - json_converter - DEBUG - Starting FTML to JSON conversion
+2025-04-11 17:50:32,951 - json_converter - DEBUG - Parsing FTML to dictionary
+2025-04-11 17:50:32,951 - json_converter - DEBUG - Parsed FTML data: {'foo': '{bar = 123, waz = [123]}', 'bar': '{baz = 456}'}...
+2025-04-11 17:50:32,951 - json_converter - DEBUG - Conversion result: {
+  "foo": "{bar = 123, waz = [123]}",
+  "bar": "{baz = 456}"
+}...
+2025-04-11 17:50:32,951 - ftml_converter - DEBUG - Conversion result: {
+  "foo": "{bar = 123, waz = [123]}",
+  "bar": "{baz = 456}"
+}...
+2025-04-11 17:50:32,951 - ftml_converter - INFO - Conversion from ftml to json successful
+2025-04-11 17:51:10,928 - ftml_converter - DEBUG - Converting from ftml to json
+2025-04-11 17:51:10,928 - ftml_converter - DEBUG - Source content: foo = {
+    bar = 123, 
+    waz = [123]
+    saz = 888
+}
+bar = {baz = 456}...
+2025-04-11 17:51:10,928 - ftml_converter - DEBUG - Getting converter for ftml to json
+2025-04-11 17:51:10,928 - ftml_converter - DEBUG - Creating FTML to JSON converter
+2025-04-11 17:51:10,928 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 17:51:10,928 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 17:51:10,928 - json_converter - DEBUG - Starting FTML to JSON conversion
+2025-04-11 17:51:10,928 - json_converter - DEBUG - Parsing FTML to dictionary
+2025-04-11 17:51:10,928 - json_converter - DEBUG - Parsed FTML data: {'foo': '{', 'bar': '{baz = 456}', 'waz': '[123]', 'saz': 888}...
+2025-04-11 17:51:10,928 - json_converter - DEBUG - Conversion result: {
+  "foo": "{",
+  "bar": "{baz = 456}",
+  "waz": "[123]",
+  "saz": 888
+}...
+2025-04-11 17:51:10,928 - ftml_converter - DEBUG - Conversion result: {
+  "foo": "{",
+  "bar": "{baz = 456}",
+  "waz": "[123]",
+  "saz": 888
+}...
+2025-04-11 17:51:10,929 - ftml_converter - INFO - Conversion from ftml to json successful
+2025-04-11 17:51:18,498 - ftml_converter - DEBUG - Converting from ftml to json
+2025-04-11 17:51:18,498 - ftml_converter - DEBUG - Source content: foo = {
+    bar = 123, 
+    waz = [123],
+    saz = 888
+}
+bar = {baz = 456}...
+2025-04-11 17:51:18,499 - ftml_converter - DEBUG - Getting converter for ftml to json
+2025-04-11 17:51:18,499 - ftml_converter - DEBUG - Creating FTML to JSON converter
+2025-04-11 17:51:18,499 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 17:51:18,499 - ftml_converter - DEBUG - Starting conversion
+2025-04-11 17:51:18,499 - json_converter - DEBUG - Starting FTML to JSON conversion
+2025-04-11 17:51:18,499 - json_converter - DEBUG - Parsing FTML to dictionary
+2025-04-11 17:51:18,499 - json_converter - DEBUG - Parsed FTML data: {'foo': '{', 'bar': '{baz = 456}', 'waz': '[123],', 'saz': 888}...
+2025-04-11 17:51:18,499 - json_converter - DEBUG - Conversion result: {
+  "foo": "{",
+  "bar": "{baz = 456}",
+  "waz": "[123],",
+  "saz": 888
+}...
+2025-04-11 17:51:18,499 - ftml_converter - DEBUG - Conversion result: {
+  "foo": "{",
+  "bar": "{baz = 456}",
+  "waz": "[123],",
+  "saz": 888
+}...
+2025-04-11 17:51:18,499 - ftml_converter - INFO - Conversion from ftml to json successful
+2025-04-11 17:56:17,137 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 17:56:17,137 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 17:56:17,158 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 17:56:17,158 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 17:56:30,677 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 17:56:30,678 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 17:56:30,699 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 17:56:30,699 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 17:56:30,705 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 17:57:46,897 - ftml_converter - DEBUG - Getting converter for json to ftml
+2025-04-11 17:57:46,897 - ftml_converter - DEBUG - Creating JSON to FTML converter
+2025-04-11 17:57:46,897 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 17:57:46,897 - json_converter - DEBUG - Starting JSON to FTML conversion
+2025-04-11 17:57:46,897 - json_converter - DEBUG - Parsed JSON data: {'name': 'John'}...
+2025-04-11 17:57:46,897 - json_converter - DEBUG - Converting JSON to FTML, indent=0, type=<class 'dict'>
+2025-04-11 17:57:46,898 - json_converter - DEBUG - Formatting scalar value: John (type: <class 'str'>)
+2025-04-11 17:57:46,898 - json_converter - DEBUG - Conversion result: name = "John"...
+2025-04-11 17:57:46,898 - ftml_converter - INFO - Conversion from json to ftml successful
+2025-04-11 17:58:07,167 - ftml_converter - DEBUG - Getting converter for json to ftml
+2025-04-11 17:58:07,167 - ftml_converter - DEBUG - Creating JSON to FTML converter
+2025-04-11 17:58:07,167 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 17:58:07,167 - json_converter - DEBUG - Starting JSON to FTML conversion
+2025-04-11 17:58:07,167 - json_converter - DEBUG - Parsed JSON data: {'name': 'John'}...
+2025-04-11 17:58:07,167 - json_converter - DEBUG - Converting JSON to FTML, indent=0, type=<class 'dict'>
+2025-04-11 17:58:07,167 - json_converter - DEBUG - Formatting scalar value: John (type: <class 'str'>)
+2025-04-11 17:58:07,167 - json_converter - DEBUG - Conversion result: name = "John"...
+2025-04-11 17:58:07,167 - ftml_converter - INFO - Conversion from json to ftml successful
+2025-04-11 17:58:30,994 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 17:58:30,994 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 17:58:31,021 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 17:58:31,021 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 17:58:31,034 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 17:58:58,376 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 17:58:58,376 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 17:58:58,396 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 17:58:58,396 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 17:58:58,408 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 17:59:32,571 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 17:59:32,571 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 17:59:32,594 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 17:59:32,594 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 17:59:32,607 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 17:59:49,229 - ftml_converter - DEBUG - Getting converter for json to ftml
+2025-04-11 17:59:49,229 - ftml_converter - DEBUG - Creating JSON to FTML converter
+2025-04-11 17:59:49,230 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 17:59:49,230 - json_converter - DEBUG - Starting JSON to FTML conversion
+2025-04-11 17:59:49,230 - json_converter - DEBUG - Parsed JSON data: {'name': 'John'}...
+2025-04-11 17:59:49,230 - json_converter - DEBUG - Converting JSON to FTML, indent=0, type=<class 'dict'>
+2025-04-11 17:59:49,230 - json_converter - DEBUG - Formatting scalar value: John (type: <class 'str'>)
+2025-04-11 17:59:49,230 - json_converter - DEBUG - Conversion result: name = "John"...
+2025-04-11 17:59:49,230 - ftml_converter - INFO - Conversion from json to ftml successful
+2025-04-11 18:01:20,065 - ftml_converter - DEBUG - Getting converter for json to ftml
+2025-04-11 18:01:20,066 - ftml_converter - DEBUG - Creating JSON to FTML converter
+2025-04-11 18:01:20,066 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 18:01:20,066 - json_converter - DEBUG - Starting JSON to FTML conversion
+2025-04-11 18:01:20,066 - json_converter - ERROR - JSON parsing error at line 1, column 9: Unterminated string starting at
+2025-04-11 18:01:20,067 - ftml_converter - ERROR - Conversion error: JSON parsing error at line 1, column 9: Unterminated string starting at
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 21, in convert
+    data = json.loads(content)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\dev\python\python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\dev\python\python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\dev\python\python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Unterminated string starting at: line 1 column 9 (char 8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio_backups\ftml_studio2c\ui\converter_window.py", line 200, in convert
+    result = converter.convert(source_content)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\projects\_open_source\ftml-studio\src\ftml_studio\converters\json_converter.py", line 31, in convert
+    raise ValueError(error_msg)
+ValueError: JSON parsing error at line 1, column 9: Unterminated string starting at
+2025-04-11 18:29:27,188 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 18:29:27,188 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 18:29:27,212 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 18:29:27,212 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 18:29:27,218 - ftml_converter - DEBUG - UI setup complete
+2025-04-11 18:36:50,844 - json_converter - DEBUG - Created JSONConverter with reverse=False
+2025-04-11 18:36:50,844 - json_converter - DEBUG - Created JSONConverter with reverse=True
+2025-04-11 18:36:50,867 - ftml_converter - DEBUG - Initializing ConverterWindow
+2025-04-11 18:36:50,868 - ftml_converter - DEBUG - Setting up ConverterWindow UI
+2025-04-11 18:36:50,874 - ftml_converter - DEBUG - UI setup complete

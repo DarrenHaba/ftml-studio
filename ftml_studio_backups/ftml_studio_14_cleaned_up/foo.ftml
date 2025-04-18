@@ -1,0 +1,12 @@
+name = "My FTML Document"
+version = "1.0"
+config = {
+    server = "localhost",
+    port = "8080",
+    debug = "True",
+    options = {
+        timeout = "30",
+        retry = "False"
+    }
+}
+tags = ["syntax", "highlighting", "ast", "42", "None", "True"]

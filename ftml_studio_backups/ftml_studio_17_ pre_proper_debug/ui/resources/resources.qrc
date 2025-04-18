@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RCC>
+    <qresource prefix="/icons">
+        <file>resources/icons/hamburger.svg</file>
+        <file>resources/icons/editor.svg</file>
+        <file>resources/icons/converter.svg</file>
+        <file>resources/icons/settings.svg</file>
+    </qresource>
+    <qresource prefix="/styles">
+        <file>resources/styles/sidebar.css</file>
+    </qresource>
+</RCC>

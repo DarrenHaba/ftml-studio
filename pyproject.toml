@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ftml-studio"
+version = "0.1.0a1"
+description = ""
+authors = ["DarrenHaba <darrenhaba@live.com>"]
+readme = "README.md"
+packages = [{ include = "ftml_studio", from = "src" }]
+license = "LGPL-3.0"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.14"
+pyside6 = "^6.9.0"
+ftml = "^0.1.0a1"
+pyyaml = "^6.0.2"
+toml = "^0.10.2"
+flake8 = "^7.2.0"
+
+[tool.poetry.scripts]
+ftml-studio = "src.ftml_studio.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
