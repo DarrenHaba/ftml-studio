@@ -7,6 +7,11 @@ readme = "README.md"
 packages = [{ include = "ftml_studio", from = "src" }]
 license = "LGPL-3.0"
 
+[tool.poetry.urls]
+"Homepage" = "https://github.com/DarrenHaba/ftml-studio"
+"Repository" = "https://github.com/DarrenHaba/ftml-studio"
+"Bug Tracker" = "https://github.com/DarrenHaba/ftml-studio/issues"
+
 [tool.poetry.dependencies]
 python = ">=3.9,<3.14"
 pyside6 = "^6.9.0"
